@@ -53,11 +53,11 @@ std::vector<int> createGrowingArray(int size) {
 }
 
 int main() {
-    int size;
+    int Size;
   
-    std::cin >> size;
+    std::cin >> Size;
 
-    std::vector<int> growingArray = createGrowingArray(size);
+    std::vector<int> growingArray = createGrowingArray(Size);
 
     for (int num : growingArray) {
         std::cout << num << " ";
