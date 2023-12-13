@@ -352,7 +352,7 @@ int main()
         std::cin >> tnom;
         if (deistv == 1)
         {
-            if ((tnom >= tmin) && (tnom <= tmax)) std::cout << "Array" << deistv << "[" << tnom << "]= " << a[tnom - tmin] << std::endl;
+            if ((tnom >= tmin) && (tnom <= tmax)) std::cout << "Array1" << deistv << "[" << tnom << "]= " << a[tnom - tmin] << std::endl;
             else std::cout << "Array" << deistv << " wrong index " << tnom << std::endl;
         }
         {if (deistv == 2)if ((tnom >= tmin) && (tnom <= tmax)) std::cout << "Array" << deistv << "[" << tnom << "]= " << b1[tnom - tmin] << std::endl;
