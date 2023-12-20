@@ -356,7 +356,7 @@ int main()
             else std::cout << "Array" << deistv << " wrong index " << tnom << std::endl;
         }
         {if (deistv == 2)if ((tnom >= tmin) && (tnom <= tmax)) std::cout << "Array" << deistv << "[" << tnom << "]= " << b1[tnom - tmin] << std::endl;
-        else std::cout << "Array" << deistv << " wrong index " << tnom << std::endl;
+        else std::cout << "Array1" << deistv << " wrong index " << tnom << std::endl;
 
         }
         std::cin >> deistv;
